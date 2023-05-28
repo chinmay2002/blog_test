@@ -8,7 +8,7 @@ const App = () => {
       <div className=" w-full">
         <Navbar />
       </div>
-      <div className='mt-4'>
+      <div className=' w-screen  flex  justify-center bg-slate-100'>
         <Home/>
       </div>
     </div>

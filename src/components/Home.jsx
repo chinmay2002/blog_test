@@ -671,11 +671,11 @@ const Home = () => {
   
     return (
         <>
-     <div className='p-4 mt-4  grid grid-cols-3  gap-y-6 max-sm:grid max-sm:grid-cols-1 max-sm:ml-2'>
+     <div className='p-4 mt-4  grid grid-cols-3  gap-y-10 gap-x-10 max-sm:grid max-sm:grid-cols-1 max-sm:ml-2 '>
          {
             randomData.key2.map((item)=>{
                 return(
-                    <div className='w-[365px] h-[425px] border-2 border-black rounded-lg bg-[#F2EFEF] '>
+                    <div className='w-[365px] h-[425px]  rounded-lg bg-white shadow-xl hover:scale-105 transition-all ease-in-out delay-100'>
                             <div className='p-8 '><img src={item.image} alt="" className='h-[200px] w-[300px] rounded-lg border-4 border-black' /></div>
 
                             <div>
